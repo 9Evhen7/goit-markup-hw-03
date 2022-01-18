@@ -51,7 +51,6 @@ p {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -168,12 +167,7 @@ p {
   margin-right: 0;
 }
 
-.qualities-description {
-  outline: 2px solid tomato;
-}
-
 .qualities-title {
-  outline: 2px solid tomato;
   margin-bottom: 10px;
 
   font-weight: 700;
