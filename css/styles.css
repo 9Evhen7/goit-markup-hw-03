@@ -190,6 +190,7 @@ p {
 }
 .works-list {
   display: flex;
+  margin-bottom: 94px;
 }
 
 .works-item {
