@@ -17,96 +17,118 @@
 
 <body>
         <header class="portfolio-header">
-          <div class="header conteiner">
-                <a href="./index.html" class="logo-begin">Web<span class="logo-end">Studio</span></a>
-                <nav>
-                    <ul class="header-list">
-                        <li class="header-item"><a href="./index.html">Студия</a></li>
-                        <li class="header-item"><a href="./portfolio.html" class="active-page">Портфолио</a></li>
-                        <li class="header-item"><a href="">Контакты</a></li>
+            <div class="conteiner">
+                <div class="header-content">
+                    <a href="./index.html" class="logo-begin">Web<span class="logo-end">Studio</span></a>
+                    <nav class="navigation">
+                        <ul class="header-list">
+                            <li class="header-item"><a href="./index.html">Студия</a></li>
+                            <li class="header-item"><a href="./portfolio.html" class="active-page">Портфолио</a></li>
+                            <li class="header-item"><a href="">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="header-list header-contacts">
+                        <li class="header-item"> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+                        <li class="header-item"> <a href="tel:+380961111111">+38 096 111 11 11</a> </li>
                     </ul>
-                </nav>
-                <ul class="header-list header-contacts">
-                    <li class="header-item"> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                    <li class="header-item"> <a href="tel:+380961111111">+38 096 111 11 11</a> </li>
-                </ul>
-          </div>
+                </div>
+            </div>
         </header>
-        <main class="portfolio-info conteiner">
-            <section>
-                <h1 class="visually-hidden">Наши работы</h1>
-                <ul class="filter-list">
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn"> Все </button>
-                    </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn"> Веб-сайты </button>
-                    </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn"> Приложения </button>
-                    </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn"> Дизайн </button>
-                    </li>
-                    <li class="filter-item">
-                        <button type="button" class="filter-btn"> Маркетинг </button>
-                    </li>
-                </ul>
-                <ul class="portfolio-net">
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/tehnokryak.jpg" alt="tehnokryak">
-                        <h2>Технокряк</h2>
-                        <p>Веб-сайт</p>
-                    </li>
-                    
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/Poster.jpg" alt="poster">
-                        <h2>Постер New Orlean vs Golden Star</h2>
-                        <p>Дизайн</p>
-                    </li>
+        <main>
+            <section class="section">
+                <div class="conteiner">
+                    <h1 class="visually-hidden">Наши работы</h1>
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button type="button" class="filter-btn"> Все </button>
+                        </li>
+                        <li class="filter-item">
+                            <button type="button" class="filter-btn"> Веб-сайты </button>
+                        </li>
+                        <li class="filter-item">
+                            <button type="button" class="filter-btn"> Приложения </button>
+                        </li>
+                        <li class="filter-item">
+                            <button type="button" class="filter-btn"> Дизайн </button>
+                        </li>
+                        <li class="filter-item">
+                            <button type="button" class="filter-btn"> Маркетинг </button>
+                        </li>
+                    </ul>
+                    <ul class="portfolio-net">
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/tehnokryak.jpg" alt="tehnokryak">
+                            <div class="item-content">
+                                <h2>Технокряк</h2>
+                                <p>Веб-сайт</p>
+                            </div>
+                        </li>
+                        
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/Poster.jpg" alt="poster">
+                            <div class="item-content">
+                                <h2>Постер New Orlean vs Golden Star</h2>
+                                <p>Дизайн</p>
+                            </div>
+                        </li>
 
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/seafood.jpg" alt="seafood">
-                        <h2>Ресторан Seafood</h2>
-                        <p>Приложение</p>
-                    </li>
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/seafood.jpg" alt="seafood">
+                            <div class="item-content">
+                                <h2>Ресторан Seafood</h2>
+                                <p>Приложение</p>
+                            </div>
+                        </li>
 
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/prime.jpg" alt="prime">
-                        <h2>Проект Prime</h2>
-                        <p>Маркетинг</p>
-                    </li>
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/prime.jpg" alt="prime">
+                            <div class="item-content">
+                                <h2>Проект Prime</h2>
+                                <p>Маркетинг</p>
+                            </div>
+                        </li>
 
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/boxes.jpg" alt="boxes">
-                        <h2>Проект Boxes</h2>
-                        <p>Приложение</p>
-                    </li>
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/boxes.jpg" alt="boxes">
+                            <div class="item-content">
+                                <h2>Проект Boxes</h2>
+                                <p>Приложение</p>
+                            </div>
+                        </li>
 
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/inspiration.jpg" alt="inspiration">
-                        <h2>Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>
-                    </li>
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/inspiration.jpg" alt="inspiration">
+                            <div class="item-content">
+                                <h2>Inspiration has no Borders</h2>
+                                <p>Веб-сайт</p>
+                            </div>
+                        </li>
 
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/limited_edition.jpg" alt="limited_edition">
-                        <h2>Издание Limited Edition</h2>
-                        <p>Дизайн</p>
-                    </li>
-                    
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/lab.jpg" alt="lab">
-                        <h2>Проект LAB</h2>
-                        <p>Маркетинг</p>
-                    </li>
-                    
-                    <li class="portfolio-net-item">
-                        <img src="./images/portfolio/business.jpg" alt="business">
-                        <h2>Growing Business</h2>
-                        <p>Приложение</p>
-                    </li>
-                </ul>
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/limited_edition.jpg" alt="limited_edition">
+                            <div class="item-content">
+                                <h2>Издание Limited Edition</h2>
+                                <p>Дизайн</p>
+                            </div>
+                        </li>
+                        
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/lab.jpg" alt="lab">
+                            <div class="item-content">
+                                <h2>Проект LAB</h2>
+                                <p>Маркетинг</p>
+                            </div>
+                        </li>
+                        
+                        <li class="portfolio-net-item">
+                            <img src="./images/portfolio/business.jpg" alt="business">
+                            <div class="item-content">
+                                <h2>Growing Business</h2>
+                                <p>Приложение</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
     <footer class="footer">
